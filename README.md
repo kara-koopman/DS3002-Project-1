@@ -18,6 +18,7 @@ i:
   3. The program removes two extraneous columns and adds an additional column of Track IDs, the program also reduces the number of records from 10,000 to 51
   4. The program writes the new file to disk 
   5. The program prints the number of columns and records for both the original and the transformed dataset
+  
 ii:
   1. The program raises exceptions when it is unable to authenticate the client, to perform the API call, when it cannot use the default file path provided, and when it is unable to write the new dataframe to CSV
  Extra: it uses the Spotify API to pull track ID data to supplement the downloaded streaming history data
