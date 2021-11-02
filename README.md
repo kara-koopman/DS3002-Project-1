@@ -21,4 +21,5 @@ i:
   
 ii:
   1. The program raises exceptions when it is unable to authenticate the client, to perform the API call, when it cannot use the default file path provided, and when it is unable to write the new dataframe to CSV
+ 
  Extra: it uses the Spotify API to pull track ID data to supplement the downloaded streaming history data
